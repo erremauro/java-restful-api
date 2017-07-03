@@ -30,12 +30,12 @@ following:
 Edit `src/main/webapp/WEB-INF/web.xml` and change the parameter that points to
 your resource's package (i.e. the package containing the Api services):
 
-   ```xml
-    <init-param>
-        <param-name>jersey.config.server.provider.packages</param-name>
-        <param-value>COM.MY_PACKAGE.RESOURCES</param-value>
-    </init-param`>
-    ```
+  ```xml
+  <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name>
+      <param-value>COM.MY_PACKAGE.RESOURCES</param-value>
+  </init-param`>
+  ```
 
 You can change the API root path in: `src/main/webapp/META-INF/context.xml`
 
