@@ -54,4 +54,4 @@ be read using the `Properties object`:
 ## Netbeans IDE
 
 To correctly open this project with Netbeans, please install `Gradle Support`
-plugin from the Plugin Manager in ``Tools > Plugins > Available Plugins
+plugin from the Plugin Manager in `Tools > Plugins > Available Plugins`
