@@ -1,0 +1,40 @@
+version='0.1.0'
+description='Java Restful API boilerplate'
+
+apply plugin: 'java'
+
+buildscript {
+  repositories {
+    mavenCentral()
+    jcenter()
+  }
+  dependencies {
+    classpath 'org.akhikhl.gretty:gretty:+'
+  }
+}
+
+apply plugin: 'org.akhikhl.gretty'
+
+repositories {
+  mavenCentral()
+  jcenter()
+}
+
+dependencies() {
+  compile 'org.glassfish.jersey.containers:jersey-container-servlet:+'
+  compile 'org.glassfish.jersey.inject:jersey-hk2:+'
+  compile 'org.glassfish.jersey.media:jersey-media-json-jackson:+'
+  compile 'io.jsonwebtoken:jjwt:+'
+  compile 'org.postgresql:postgresql:+'
+  testCompile 'junit:junit:4.12'
+}
+
+test {
+    environment "pgsql_host", "localhost"
+    environment "pgsql_db", "restfulapi"
+    environment "pgsql_username", "restfulapi"
+    environment "pgsql_password", "restfulapi"
+}
+
+
+
