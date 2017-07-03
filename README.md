@@ -10,9 +10,14 @@ library declare as a gradle's dependency.
 [2]: https://gradle.org
 [3]: http://akhikhl.github.io/gretty-doc/Getting-started.html
 
-## Running
+## Installation
 
-To run the project type:
+Clone the repository locally:
+
+    git clone https://github.com/erremauro/java-restful-api.git
+    cd java-restful-api
+
+To run the project using [Gretty][1] type in the console:
 
     gradle appRun
 
