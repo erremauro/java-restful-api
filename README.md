@@ -45,11 +45,11 @@ Database configurations are store in
 `src/main/resources/com/erremauro/restfulapi/configuration.properties` and can
 be read using the `Properties object`:
 
-    ```java
-    Properties props = new Properties();
-    props.load(Resource.class.getResourceAsStream("configuration.properties");
-    String host = props.getProperty("host");
-    ```
+  ```java
+  Properties props = new Properties();
+  props.load(Resource.class.getResourceAsStream("configuration.properties");
+  String host = props.getProperty("host");
+  ```
 
 ## Netbeans IDE
 
