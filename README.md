@@ -4,7 +4,7 @@ A Java Restful API boilerplate project based on [Jersey][1],
 built with [Gradle][2].
 
 RestfulAPI is configured to run using [Gretty][3] and has the `jdbc-postgresql`
-library declare as a gradle's dependency.
+library declared as a gradle's dependency.
 
 [1]: https://jersey.github.io
 [2]: https://gradle.org
@@ -41,7 +41,7 @@ You can change the API root path in: `src/main/webapp/META-INF/context.xml`
 
 ## Configurations
 
-Database configurations are store in 
+Database configurations are stored in 
 `src/main/resources/com/erremauro/restfulapi/configuration.properties` and can
 be read using the `Properties object`:
 
